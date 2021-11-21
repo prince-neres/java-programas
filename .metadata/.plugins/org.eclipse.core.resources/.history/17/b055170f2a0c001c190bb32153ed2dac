@@ -1,0 +1,17 @@
+import java.util.ArrayList;
+
+public class Propietario {
+	private String nome;
+	ArrayList<Imovel> Imoveis = new ArrayList<>();
+	
+	public Propietario(){
+	}
+	
+	public void imprimir() {
+		for(int i = 1; i < Imoveis.size(); i++) {
+			 System.out.println(Imoveis.get(i));
+		}
+	}
+}
+
+

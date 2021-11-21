@@ -1,0 +1,12 @@
+public class Mamifero extends Animal{
+	public String tipoAlimentacao;
+	
+	public Mamifero(String nome, String cor, int qtdPatas){	
+		
+	}
+	
+	public void dadosMamifero(){
+		
+	}
+
+}

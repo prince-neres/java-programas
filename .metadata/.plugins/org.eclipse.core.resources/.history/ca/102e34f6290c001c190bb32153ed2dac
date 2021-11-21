@@ -1,0 +1,21 @@
+public class Testes {
+	public static void main(String[] args) {
+		
+		Casa c1 = new Casa();
+		c1.setLocal("Brasília - DF");
+		c1.setTamanho(150);
+		
+		
+		Apartamento ap1 = new Apartamento();
+		c1.setLocal("Brasília - DF");
+		c1.setTamanho(100);
+		
+
+		Propietario p1 = new Propietario();
+		p1.setNome("Marcos")
+		p1.Imoveis.add(ap1);
+		p1.imprimir();
+	
+		
+	}
+}

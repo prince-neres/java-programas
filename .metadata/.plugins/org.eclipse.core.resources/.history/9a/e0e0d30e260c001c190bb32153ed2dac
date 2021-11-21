@@ -1,0 +1,15 @@
+public class Testes {
+	public static void main(String[] args) {
+		
+		Casa c1 = new Casa(200, "Brasília - DF", 150);
+		Apartamento ap1 = new Apartamento(true, false, "Brasília - DF", 100);
+		
+
+		Propietario p1 = new Propietario("João", "");
+		
+		
+		p1.imprimir();
+		System.out.println(.resumo());
+		
+	}
+}

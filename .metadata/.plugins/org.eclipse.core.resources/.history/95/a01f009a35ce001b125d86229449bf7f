@@ -1,0 +1,22 @@
+public class Mamifero extends Animal{
+	public String getTipoAlimentacao;
+	
+	public Mamifero(String nome, String cor, int qtdPatas){	
+		this.nome = nome;
+		this.cor = cor;
+		this.qtdPatas = qtdPatas;
+		
+	}
+	
+	public void setTipoAlimentacao(String tipoAlimentacao){
+		this.getTipoAlimentacao = tipoAlimentacao;
+		System.out.println("Seu tipo de alimentação é: " + tipoAlimentacao)
+	}
+	
+	public void dadosMamifero(){
+		System.out.println("Animal: " + nome);
+		System.out.println("é " + cor);
+		System.out.println("Possui " + qtdPatas + " patas");
+	}
+
+}

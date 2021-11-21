@@ -1,0 +1,8 @@
+public abstract class Imovel {
+	double tamanho;
+	String local;
+	
+	public Imovel(double tamanho, String local) {
+		
+	}
+}

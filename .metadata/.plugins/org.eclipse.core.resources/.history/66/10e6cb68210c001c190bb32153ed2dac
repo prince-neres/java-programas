@@ -1,0 +1,9 @@
+public class Testes {
+	public static void main(String[] args) {
+		
+		
+	
+		Propietario P1 = new Propietario("João", "");
+
+	}
+}

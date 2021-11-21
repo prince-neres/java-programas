@@ -1,0 +1,25 @@
+public class CadernoDeEnderecos {
+	//Atributos
+	String nome;
+	String telefone;
+	String email;
+	String endereco;
+	boolean lotado;
+	
+	//Metodos
+	String adicionaDados(){
+		String dados = nome + "\n";
+		dados += telefone + "\n"; 
+		dados += email + "\n";
+		dados += endereco + "\n";
+		
+		return dados;
+	}	
+	
+	void cadernoLotado() {
+		if(this.lotado = true) {
+			System.out.println("Caderno Cheio!");
+		}
+	}
+	
+}

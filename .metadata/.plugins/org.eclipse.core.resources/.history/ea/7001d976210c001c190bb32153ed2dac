@@ -1,0 +1,7 @@
+public class Casa extends Imovel{
+	double areaTotal;
+	
+	public Casa(double areaTotal, String local, double tamanho){
+		super(tamanho, local);
+	}
+}

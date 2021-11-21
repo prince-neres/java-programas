@@ -1,0 +1,12 @@
+
+public class mostrarRelatorio {
+
+	public static void main(String[] args) {
+		
+		System.out.println("******************RELATÓRIO******************** \n");
+		System.out.println("Quantidade de pessoas presentes no restaurante agora: " + qtdePresentes + "\n");
+		System.out.println("Total de pessoas que passaram pelo restaurante: " + totalPresentes + "\n");
+
+	}
+
+}

@@ -1,0 +1,18 @@
+public class CadernoDeEnderecos {
+	String nome;
+	String telefone;
+	String email;
+	String endereco;
+		
+	String geraResumo(){
+		String resumo = nome + "\n";
+		resumo += telefone + "\n"; 
+		resumo += email + "\n";
+		resumo += endereco + "\n";
+		
+		return resumo;
+	}
+	
+	
+	
+}

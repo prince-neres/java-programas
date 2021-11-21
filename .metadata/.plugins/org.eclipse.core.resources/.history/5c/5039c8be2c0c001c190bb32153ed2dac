@@ -1,0 +1,17 @@
+public class Apartamento extends Imovel{
+	private boolean garagem;
+	private boolean elevador;
+	
+	public boolean isGaragem() {
+		return garagem;
+	}
+	public void setGaragem(boolean garagem) {
+		this.garagem = garagem;
+	}
+	public boolean isElevador() {
+		return elevador;
+	}
+	public void setElevador(boolean elevador) {
+		this.elevador = elevador;
+	}
+}

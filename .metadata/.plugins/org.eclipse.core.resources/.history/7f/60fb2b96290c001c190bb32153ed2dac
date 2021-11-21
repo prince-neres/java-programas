@@ -1,0 +1,16 @@
+public class Casa extends Imovel{
+	private double areaTotal;
+	
+	public Casa(double areaTotal){
+		this.areaTotal = areaTotal;
+	}
+
+	public double getAreaTotal() {
+		return areaTotal;
+	}
+
+	public void setAreaTotal(double areaTotal) {
+		this.areaTotal = areaTotal;
+	}
+	
+}

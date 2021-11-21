@@ -1,0 +1,21 @@
+public class Apartamento extends Imovel{
+	boolean garagem;
+	boolean elevador;
+	
+	public Apartamento(boolean garagem, boolean elevador, String local, double tamanho){
+		super(tamanho, local);
+		this.garagem = garagem;
+		this.elevador = elevador;
+	}
+	
+	public String resumo(){
+		String resumo;
+		resumo = "Imovel: Casa";
+		resumo += "Localização: " + this.tamanho;
+		resumo += "Elevador: " + this.elevador;
+		resumo += "Garagem: " + this.garagem;
+		resumo += "Localização: " + this.getLocal();
+		
+		return resumo;
+	}
+}

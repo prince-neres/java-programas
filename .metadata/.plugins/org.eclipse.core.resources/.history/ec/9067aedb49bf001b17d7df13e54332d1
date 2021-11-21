@@ -1,0 +1,16 @@
+public class CadernoDeEnderecos {
+	String nome;
+	String telefone;
+	String email;
+	String endereco;
+		
+	String geraDados(){
+		String dados = nome + "\n";
+		dados += telefone + "\n"; 
+		dados += email + "\n";
+		dados += endereco + "\n";
+		
+		return dados;
+	}
+	
+}

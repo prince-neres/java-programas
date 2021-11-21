@@ -1,0 +1,13 @@
+public class emprestimo {
+	String data;
+	String local;
+	boolean entregue;
+	
+	String gerarResumo() {
+		String resumo = data+"\n";
+		resumo +="Local de entrega: "+  local +"\n";
+		resumo += "Entregue? "+ entregue +"\n";
+		
+		return resumo;
+	}
+}

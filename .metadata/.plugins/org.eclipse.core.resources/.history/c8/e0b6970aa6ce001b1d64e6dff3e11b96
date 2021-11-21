@@ -1,0 +1,11 @@
+public class AnimalMain {
+
+	public static void main(String[] args) {
+		Mamifero Mamifero1 = new Mamifero("Onça", "Parda", 4, "Carnívoro" + "\n");
+		Mamifero1.dadosMamifero(); 
+		
+		Mamifero Mamifero2 = new Mamifero("Cavalo", "Marrom", 4, "Herbívoro" + "\n");
+		Mamifero2.dadosMamifero(); 
+		
+	}
+}

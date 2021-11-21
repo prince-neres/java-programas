@@ -1,0 +1,8 @@
+public class Apartamento extends Imovel{
+	boolean garagem;
+	boolean elevador;
+	
+	public Casa(double tamanho){
+		
+	}
+}

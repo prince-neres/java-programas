@@ -1,0 +1,7 @@
+public class Casa extends Imovel{
+	double tamanho;
+	
+	public Casa(double tamanho){
+		
+	}
+}

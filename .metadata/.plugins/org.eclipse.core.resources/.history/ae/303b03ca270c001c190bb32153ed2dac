@@ -1,0 +1,17 @@
+public class Casa extends Imovel{
+	double areaTotal;
+	
+	public Casa(double areaTotal, String local){
+		this.areaTotal = areaTotal;
+	}
+	
+	public String resumo(){
+		String resumo;
+		resumo = "Imovel: Casa" + "\n";
+		resumo += "Area Total: " + this.areaTotal  + "\n";
+		resumo += "Tamanho: " + this.getTamanho()  + "\n";
+		resumo += "Localização: " + this.getLocal()  + "\n";
+		
+		return resumo;
+	}
+}

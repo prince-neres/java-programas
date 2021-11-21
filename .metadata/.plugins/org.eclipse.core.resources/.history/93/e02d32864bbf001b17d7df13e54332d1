@@ -1,0 +1,17 @@
+public class CadernoDeEnderecos {
+	//Atributos
+	String nome;
+	String telefone;
+	String email;
+	String endereco;
+	
+	//Metodos
+	String adicionaDados(){
+		String dados = nome + "\n";
+		dados += telefone + "\n"; 
+		dados += email + "\n";
+		dados += endereco + "\n";
+		
+		return dados;
+	}	
+}

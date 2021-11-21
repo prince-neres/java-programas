@@ -1,0 +1,20 @@
+public class CadernoDeEnderecos {
+	String nome;
+	String telefone;
+	String email;
+	String endereco;
+	
+	void escreveDados() {
+		nome = "João";
+		telefone = "(61)98434-1233";
+		email = "joao241@yahoo.com";
+		endereco = "Asa-Norte, Rua 14, N°234.";
+	}
+	
+	void apresentaDados(){
+		System.out.println("Nome : João");
+		System.out.println("Telefone : (61)98434-1233");
+		System.out.println("E-mail : joao241@yahoo.com");
+		System.out.println("Endereco : Asa-Norte, Rua 14, N°234.");
+	}
+}

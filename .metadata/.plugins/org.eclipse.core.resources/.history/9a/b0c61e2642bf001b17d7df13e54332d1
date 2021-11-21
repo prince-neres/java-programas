@@ -1,0 +1,13 @@
+public class livro {
+	String nome;
+	String autor;
+	String ano;
+	
+	String gerarResumo() {
+		String resumo = nome+"\n";
+		resumo +="Autor: "+  autor +"\n";
+		resumo += "Ano: "+ ano +"\n";
+		
+		return resumo;
+	}
+}

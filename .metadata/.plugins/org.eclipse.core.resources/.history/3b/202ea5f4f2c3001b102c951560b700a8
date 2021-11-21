@@ -1,0 +1,11 @@
+
+public class mostrarRelatorio {
+
+	public static void main(String[] args) {
+		
+		ContadorDePessoas c1 = new ContadorDePessoas(int limitePessoas);
+		c1.qtdePresentes = 54;		
+		
+	}
+
+}

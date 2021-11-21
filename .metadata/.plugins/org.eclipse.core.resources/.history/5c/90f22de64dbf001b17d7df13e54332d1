@@ -1,0 +1,18 @@
+public class CadernoDeEnderecos {
+	//Atributos
+	String nome;
+	String telefone;
+	String email;
+	String endereco;
+	boolean lotado;
+	
+	//Metodos
+	void apresentaDados(){
+		System.out.println("Nome: " + this.nome);
+		System.out.println("Telefone: " + this.telefone);
+		System.out.println("E-mail: "+ this.email);
+		System.out.println("Endereço: " + this.endereco);
+	}
+	
+	
+}

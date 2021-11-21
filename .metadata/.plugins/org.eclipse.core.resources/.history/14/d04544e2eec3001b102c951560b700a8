@@ -1,0 +1,35 @@
+public class ContadorDePessoas {
+	
+//Atributos
+public int limitePessoas;
+public int qtdePresentes;
+public int totalPresentes;
+
+//Métodos
+ContadorDePessoas(int limitePessoas){
+	limitePessoas = 100;
+}
+
+public void registraEntrada(int quantidade){
+	
+	if(limitePessoas>100) {
+		System.out.println("Erro. Número máximo de pessoas permitido!");
+	} else {
+	quantidade++;
+	}
+}
+
+public void registraSaida(int quantidade) {
+	if(limitePessoas<=100) {
+		registraEntrada();
+	} else {
+	quantidade--;
+	}
+}
+
+void mostrarRelatorio(){
+	
+}
+
+
+}

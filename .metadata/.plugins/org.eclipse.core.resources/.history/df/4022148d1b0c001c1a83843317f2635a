@@ -1,0 +1,17 @@
+import java.util.HashMap;
+import java.util.Map;
+
+public class Atividade3 {
+	public static void main(String[] args) {
+		Map<String,String> ListaDePessoas = new HashMap<String, String>();
+		ListaDePessoas.put("17802387423", "João Delfino");
+		ListaDePessoas.put("12343455677", "Maria do Carmo");
+		ListaDePessoas.put("15234256576", "Claudinei Silva");
+
+		for(String CPF : ListaDePessoas.keySet()) {
+			String Pessoa = ListaDePessoas.get(CPF);
+			System.out.println("CPF: " + CPF + " - " + "Dono: " + Pessoa);
+		}
+
+	}
+}

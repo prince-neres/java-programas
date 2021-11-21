@@ -1,0 +1,17 @@
+public abstract class Imovel {
+	private double tamanho;
+	private String local;
+
+	public Imovel(double tamanho, String local) {
+		this.tamanho = tamanho;
+		this.local = local;
+	}
+	
+	public String getLocal() {
+		return local;
+	}
+
+	public void setLocal(String local) {
+		this.local = local;
+	}
+}

@@ -1,0 +1,3 @@
+public class CadernoDeEnderecos {
+	System.out.println("iufiube");
+}

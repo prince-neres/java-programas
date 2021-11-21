@@ -1,0 +1,37 @@
+public class ContadorDePessoas {
+		
+	//Atributos
+	int limitePessoas;
+	int qtdePresentes;
+	int totalPresentes;
+	
+	//Métodos
+	public ContadorDePessoas(int limitePessoas) {
+		limitePessoas = 100; 
+	}
+	
+	void registraEntrada(int quantidade) {
+		qtdePresentes = quantidade;
+
+		if(limitePessoas>100) {
+			System.out.println("Erro. Número máximo de pessoas permitido!");
+		} else {
+		quantidade++;
+		totalPresentes++;
+		}
+	}
+	
+	void registraSaida(int quantidade) {
+		if(limitePessoas<=100) {
+			registraEntrada(quantidade);
+		} else {
+		quantidade--;
+		}
+	}
+	
+	void  mostrarRelatorio() {
+		System.out.println("******************RELATÓRIO******************** \n");
+		System.out.println("Quantidade de pessoas presentes no restaurante agora: " + this.qtdePresentes + "\n");
+		System.out.println("Total de pessoas que passaram pelo restaurante: " + this.totalPresentes + "\n");
+	}
+}

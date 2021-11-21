@@ -1,0 +1,13 @@
+public class AnimalMain {
+
+	public static void main(String[] args) {
+		Mamifero Mamifero1 = new Mamifero("Onça", "Parda", 4);
+		Mamifero1.dadosMamifero(); 
+		Mamifero1.setTipoAlimentacao("Carnívoro" + "\n");
+		
+		Mamifero Mamifero2 = new Mamifero("Cavalo", "Marrom", 4);
+		Mamifero2.dadosMamifero(); 
+		Mamifero2.setTipoAlimentacao("Herbívoro + "\n");
+		
+	}
+}
